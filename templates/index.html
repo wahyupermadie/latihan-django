@@ -8,7 +8,11 @@
     <div>
         <h1>Hello Bro {{ kontributor }} di Home</h1>
     </div>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
+    <!-- Template Tag -->
+    <ul>
+        {% for link,name in nav %}
+            <li><a href="{{link}}">{{name}}</a></li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

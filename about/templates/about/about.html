@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ judul }}</title>
-</head>
-<body>
-    <div>
-        <h1>Hello Bro {{ kontributor }} di About</h1>
-    </div>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-</body>
-</html>
+{% include 'base.html' %}
+
+
+{% block main %}
+    Hello
+{% endblock main %}
+    

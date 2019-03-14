@@ -1,0 +1,32 @@
+img{
+    width: 100%;
+}
+
+h1{
+    color: #555;
+    font-family: arial;
+}
+
+nav ul {
+    background-color: #555;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    font-family: arial;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    background-color: #f00;
+}
